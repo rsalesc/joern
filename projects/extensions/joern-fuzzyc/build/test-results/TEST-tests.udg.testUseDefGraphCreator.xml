@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.udg.testUseDefGraphCreator" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-06-20T13:26:40" hostname="roberto-UNIX" time="0.303">
+  <properties/>
+  <testcase name="test_condition" classname="tests.udg.testUseDefGraphCreator" time="0.243"/>
+  <testcase name="test_simplified_expression" classname="tests.udg.testUseDefGraphCreator" time="0.021"/>
+  <testcase name="test_def_tainted_call" classname="tests.udg.testUseDefGraphCreator" time="0.008"/>
+  <testcase name="test_plusEquals_asssignment" classname="tests.udg.testUseDefGraphCreator" time="0.008"/>
+  <testcase name="test_struct_field_assign_def" classname="tests.udg.testUseDefGraphCreator" time="0.02"/>
+  <system-out><![CDATA[/home/rsalesc/Dev/joern/projects/extensions/joern-fuzzyc
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

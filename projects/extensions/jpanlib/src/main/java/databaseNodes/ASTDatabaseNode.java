@@ -15,6 +15,7 @@ public class ASTDatabaseNode extends DatabaseNode
 
 	ASTNode astNode;
 	private FunctionDatabaseNode currentFunction;
+  private boolean insideFunctionBlock;
 
 	@Override
 	public void initialize(Object node)
@@ -37,13 +38,9 @@ public class ASTDatabaseNode extends DatabaseNode
 		if (astNode.isInCFG())
 		{
 			properties.put(NodeKeys.IS_CFG_NODE, "True");
-			properties.put(NodeKeys.LOCATION, getCorrectedLocationString());
 		}
 
-		if (astNode instanceof CompoundStatement)
-		{
-			properties.put(NodeKeys.LOCATION, astNode.getLocationString());
-		}
+    properties.put(NodeKeys.LOCATION, getCorrectedLocationString());
 
 		if (astNode instanceof Expression)
 		{
@@ -63,11 +60,11 @@ public class ASTDatabaseNode extends DatabaseNode
 	private String getCorrectedLocationString()
 	{
 
-		CodeLocation funcLocation = currentFunction.getContentLocation();
 		CodeLocation location = astNode.getLocation();
 
-		if (!(astNode instanceof ParameterBase) || (astNode instanceof ReturnType))
+		if (this.isInsideFunctionBlock())
 		{
+		  CodeLocation funcLocation = currentFunction.getContentLocation();
 			location.startIndex += funcLocation.startIndex + 1;
 			location.startLine += funcLocation.startLine - 1;
 			location.stopIndex += funcLocation.startIndex + 1;
@@ -75,6 +72,14 @@ public class ASTDatabaseNode extends DatabaseNode
 
 		return location.toString();
 	}
+
+  public void setInsideFunctionBlock(boolean flag) {
+    this.insideFunctionBlock = flag;
+  }
+
+  public boolean isInsideFunctionBlock() {
+    return this.insideFunctionBlock;
+  }
 
 	public FunctionDatabaseNode getCurrentFunction()
 	{

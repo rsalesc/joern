@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.PreprocessorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-06-20T13:26:43" hostname="roberto-UNIX" time="0.009">
+  <properties/>
+  <testcase name="testPreElseSkipping" classname="tests.languages.c.parseTreeToAST.PreprocessorTests" time="0.008"/>
+  <testcase name="NestedIfndefs" classname="tests.languages.c.parseTreeToAST.PreprocessorTests" time="0.001"/>
+  <system-out><![CDATA[1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

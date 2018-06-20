@@ -1,4 +1,4 @@
-// Generated from src/main/java/antlr/Function.g4 by ANTLR 4.5.4-SNAPSHOT
+// Generated from src/main/java/antlr/Function.g4 by ANTLR 4.5.3
 
 	package antlr;
 
@@ -30,6 +30,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTry_statement(@NotNull FunctionParser.Try_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -42,6 +43,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIf_statement(@NotNull FunctionParser.If_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -54,6 +56,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCatch_statement(@NotNull FunctionParser.Catch_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -66,6 +69,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFor_statement(@NotNull FunctionParser.For_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -78,6 +82,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitElse_statement(@NotNull FunctionParser.Else_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -90,6 +95,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSwitch_statement(@NotNull FunctionParser.Switch_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -102,6 +108,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDo_statement(@NotNull FunctionParser.Do_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -114,6 +121,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitWhile_statement(@NotNull FunctionParser.While_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -126,6 +134,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitDeclWithAssign(@NotNull FunctionParser.InitDeclWithAssignContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -138,6 +147,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitDeclSimple(@NotNull FunctionParser.InitDeclSimpleContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -150,6 +160,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitDeclWithCall(@NotNull FunctionParser.InitDeclWithCallContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -162,6 +173,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitMemberAccess(@NotNull FunctionParser.MemberAccessContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -174,6 +186,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIncDecOp(@NotNull FunctionParser.IncDecOpContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -186,6 +199,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPrimaryOnly(@NotNull FunctionParser.PrimaryOnlyContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -198,6 +212,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFuncCall(@NotNull FunctionParser.FuncCallContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -210,6 +225,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitArrayIndexing(@NotNull FunctionParser.ArrayIndexingContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -222,6 +238,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtrMemberAccess(@NotNull FunctionParser.PtrMemberAccessContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -234,6 +251,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclByClass(@NotNull FunctionParser.DeclByClassContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -246,6 +264,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclByType(@NotNull FunctionParser.DeclByTypeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -258,6 +277,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNormOr(@NotNull FunctionParser.NormOrContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -270,6 +290,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCndExpr(@NotNull FunctionParser.CndExprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -282,6 +303,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitThrowStatement(@NotNull FunctionParser.ThrowStatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -294,6 +316,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBreakStatement(@NotNull FunctionParser.BreakStatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -306,6 +329,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitContinueStatement(@NotNull FunctionParser.ContinueStatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -318,6 +342,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitReturnStatement(@NotNull FunctionParser.ReturnStatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -330,6 +355,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitGotoStatement(@NotNull FunctionParser.GotoStatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -342,6 +368,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitStatements(@NotNull FunctionParser.StatementsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -354,6 +381,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitStatement(@NotNull FunctionParser.StatementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -366,6 +394,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPre_opener(@NotNull FunctionParser.Pre_openerContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -378,6 +407,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPre_else(@NotNull FunctionParser.Pre_elseContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -390,6 +420,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPre_closer(@NotNull FunctionParser.Pre_closerContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -402,6 +433,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOpening_curly(@NotNull FunctionParser.Opening_curlyContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -414,6 +446,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitClosing_curly(@NotNull FunctionParser.Closing_curlyContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -426,6 +459,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBlock_starter(@NotNull FunctionParser.Block_starterContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -438,6 +472,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSelection_or_iteration(@NotNull FunctionParser.Selection_or_iterationContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -450,6 +485,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDo_statement1(@NotNull FunctionParser.Do_statement1Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -462,6 +498,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFor_init_statement(@NotNull FunctionParser.For_init_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -474,6 +511,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitJump_statement(@NotNull FunctionParser.Jump_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -486,6 +524,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitLabel(@NotNull FunctionParser.LabelContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -498,6 +537,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExpr_statement(@NotNull FunctionParser.Expr_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -510,6 +550,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCondition(@NotNull FunctionParser.ConditionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -522,6 +563,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_operator(@NotNull FunctionParser.Unary_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -534,6 +576,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRelational_operator(@NotNull FunctionParser.Relational_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -546,6 +589,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConstant(@NotNull FunctionParser.ConstantContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -558,6 +602,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_decl_specifiers(@NotNull FunctionParser.Function_decl_specifiersContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -570,6 +615,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtr_operator(@NotNull FunctionParser.Ptr_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -582,6 +628,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAccess_specifier(@NotNull FunctionParser.Access_specifierContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -594,6 +641,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOperator(@NotNull FunctionParser.OperatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -606,6 +654,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssignment_operator(@NotNull FunctionParser.Assignment_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -618,6 +667,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitEquality_operator(@NotNull FunctionParser.Equality_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -630,6 +680,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTemplate_decl_start(@NotNull FunctionParser.Template_decl_startContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -642,6 +693,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTemplate_param_list(@NotNull FunctionParser.Template_param_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -654,6 +706,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets(@NotNull FunctionParser.No_bracketsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -666,6 +719,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets_curlies_or_squares(@NotNull FunctionParser.No_brackets_curlies_or_squaresContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -678,6 +732,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets_or_semicolon(@NotNull FunctionParser.No_brackets_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -690,6 +745,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_angle_brackets_or_brackets(@NotNull FunctionParser.No_angle_brackets_or_bracketsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -702,6 +758,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_curlies(@NotNull FunctionParser.No_curliesContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -714,6 +771,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_squares(@NotNull FunctionParser.No_squaresContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -726,6 +784,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_squares_or_semicolon(@NotNull FunctionParser.No_squares_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -738,6 +797,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_comma_or_semicolon(@NotNull FunctionParser.No_comma_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -750,6 +810,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_water(@NotNull FunctionParser.Assign_waterContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -762,6 +823,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_water_l2(@NotNull FunctionParser.Assign_water_l2Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -774,6 +836,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitWater(@NotNull FunctionParser.WaterContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -786,6 +849,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExpr(@NotNull FunctionParser.ExprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -798,6 +862,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_expr(@NotNull FunctionParser.Assign_exprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -810,6 +875,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConditional_expression(@NotNull FunctionParser.Conditional_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -822,6 +888,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOr_expression(@NotNull FunctionParser.Or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -834,6 +901,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAnd_expression(@NotNull FunctionParser.And_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -846,6 +914,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInclusive_or_expression(@NotNull FunctionParser.Inclusive_or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -858,6 +927,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExclusive_or_expression(@NotNull FunctionParser.Exclusive_or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -870,6 +940,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBit_and_expression(@NotNull FunctionParser.Bit_and_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -882,6 +953,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitEquality_expression(@NotNull FunctionParser.Equality_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -894,6 +966,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRelational_expression(@NotNull FunctionParser.Relational_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -906,6 +979,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitShift_expression(@NotNull FunctionParser.Shift_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -918,6 +992,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAdditive_expression(@NotNull FunctionParser.Additive_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -930,6 +1005,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitMultiplicative_expression(@NotNull FunctionParser.Multiplicative_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -942,6 +1018,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCast_expression(@NotNull FunctionParser.Cast_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -954,6 +1031,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCast_target(@NotNull FunctionParser.Cast_targetContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -966,6 +1044,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_expression(@NotNull FunctionParser.Unary_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -978,6 +1057,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNew_expression(@NotNull FunctionParser.New_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -990,6 +1070,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_op_and_cast_expr(@NotNull FunctionParser.Unary_op_and_cast_exprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1002,6 +1083,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_expression(@NotNull FunctionParser.Sizeof_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1014,6 +1096,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof(@NotNull FunctionParser.SizeofContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1026,6 +1109,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_operand(@NotNull FunctionParser.Sizeof_operandContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1038,6 +1122,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_operand2(@NotNull FunctionParser.Sizeof_operand2Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1050,6 +1135,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInc_dec(@NotNull FunctionParser.Inc_decContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1062,6 +1148,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPostfix_expression(@NotNull FunctionParser.Postfix_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1074,6 +1161,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_argument_list(@NotNull FunctionParser.Function_argument_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1086,6 +1174,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_argument(@NotNull FunctionParser.Function_argumentContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1098,6 +1187,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPrimary_expression(@NotNull FunctionParser.Primary_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1110,6 +1200,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInit_declarator(@NotNull FunctionParser.Init_declaratorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1122,6 +1213,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclarator(@NotNull FunctionParser.DeclaratorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1134,6 +1226,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType_suffix(@NotNull FunctionParser.Type_suffixContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1146,6 +1239,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSimple_decl(@NotNull FunctionParser.Simple_declContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1158,6 +1252,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitVar_decl(@NotNull FunctionParser.Var_declContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1170,6 +1265,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInit_declarator_list(@NotNull FunctionParser.Init_declarator_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1182,6 +1278,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitializer(@NotNull FunctionParser.InitializerContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1194,6 +1291,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitializer_list(@NotNull FunctionParser.Initializer_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1206,6 +1304,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitClass_def(@NotNull FunctionParser.Class_defContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1218,6 +1317,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitClass_name(@NotNull FunctionParser.Class_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1230,6 +1330,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_classes(@NotNull FunctionParser.Base_classesContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1242,6 +1343,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_class(@NotNull FunctionParser.Base_classContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1254,6 +1356,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType_name(@NotNull FunctionParser.Type_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1266,6 +1369,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_type(@NotNull FunctionParser.Base_typeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1278,6 +1382,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_decl_specifiers(@NotNull FunctionParser.Param_decl_specifiersContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1290,6 +1395,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParameter_name(@NotNull FunctionParser.Parameter_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1302,6 +1408,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type_list(@NotNull FunctionParser.Param_type_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1314,6 +1421,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type(@NotNull FunctionParser.Param_typeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1326,6 +1434,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type_id(@NotNull FunctionParser.Param_type_idContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1338,6 +1447,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIdentifier(@NotNull FunctionParser.IdentifierContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1350,6 +1460,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNumber(@NotNull FunctionParser.NumberContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1362,6 +1473,7 @@ public class FunctionBaseListener implements FunctionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtrs(@NotNull FunctionParser.PtrsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *

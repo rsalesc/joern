@@ -1,4 +1,4 @@
-// Generated from src/main/java/antlr/Module.g4 by ANTLR 4.5.4-SNAPSHOT
+// Generated from src/main/java/antlr/Module.g4 by ANTLR 4.5.3
 
 	package antlr;
 
@@ -283,18 +283,21 @@ public class ModuleParser extends Parser {
 					function_def();
 					}
 					break;
+
 				case 2:
 					{
 					setState(183);
 					simple_decl();
 					}
 					break;
+
 				case 3:
 					{
 					setState(184);
 					using_directive();
 					}
 					break;
+
 				case 4:
 					{
 					setState(185);
@@ -543,6 +546,7 @@ public class ModuleParser extends Parser {
 				or_expression();
 				}
 				break;
+
 			case 2:
 				_localctx = new CndExprContext(_localctx);
 				enterOuterAlt(_localctx, 2);
@@ -1192,6 +1196,7 @@ public class ModuleParser extends Parser {
 				}
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -1447,6 +1452,7 @@ public class ModuleParser extends Parser {
 				match(T__20);
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -1581,6 +1587,7 @@ public class ModuleParser extends Parser {
 				match(T__17);
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -1948,6 +1955,7 @@ public class ModuleParser extends Parser {
 						match(T__20);
 						}
 						break;
+
 					case 2:
 						{
 						_localctx = new FuncCallContext(new Postfix_expressionContext(_parentctx, _parentState));
@@ -1962,6 +1970,7 @@ public class ModuleParser extends Parser {
 						match(T__17);
 						}
 						break;
+
 					case 3:
 						{
 						_localctx = new MemberAccessContext(new Postfix_expressionContext(_parentctx, _parentState));
@@ -1985,6 +1994,7 @@ public class ModuleParser extends Parser {
 						}
 						}
 						break;
+
 					case 4:
 						{
 						_localctx = new PtrMemberAccessContext(new Postfix_expressionContext(_parentctx, _parentState));
@@ -2008,6 +2018,7 @@ public class ModuleParser extends Parser {
 						}
 						}
 						break;
+
 					case 5:
 						{
 						_localctx = new IncDecOpContext(new Postfix_expressionContext(_parentctx, _parentState));
@@ -3934,6 +3945,7 @@ public class ModuleParser extends Parser {
 
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -4701,6 +4713,7 @@ public class ModuleParser extends Parser {
 				}
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -5278,6 +5291,7 @@ public class ModuleParser extends Parser {
 				}
 				}
 				break;
+
 			case 2:
 				_localctx = new DeclByTypeContext(_localctx);
 				enterOuterAlt(_localctx, 2);
@@ -5869,6 +5883,7 @@ public class ModuleParser extends Parser {
 
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -5876,6 +5891,7 @@ public class ModuleParser extends Parser {
 				match(UNSIGNED);
 				}
 				break;
+
 			case 3:
 				enterOuterAlt(_localctx, 3);
 				{
@@ -6109,6 +6125,7 @@ public class ModuleParser extends Parser {
 				match(T__17);
 				}
 				break;
+
 			case 2:
 				enterOuterAlt(_localctx, 2);
 				{
@@ -6258,6 +6275,7 @@ public class ModuleParser extends Parser {
 				match(T__17);
 				}
 				break;
+
 			case 2:
 				{
 				setState(893);
@@ -6537,12 +6555,16 @@ public class ModuleParser extends Parser {
 		switch (predIndex) {
 		case 0:
 			return precpred(_ctx, 6);
+
 		case 1:
 			return precpred(_ctx, 5);
+
 		case 2:
 			return precpred(_ctx, 4);
+
 		case 3:
 			return precpred(_ctx, 3);
+
 		case 4:
 			return precpred(_ctx, 2);
 		}

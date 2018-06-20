@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2018-06-20T13:26:43" hostname="roberto-UNIX" time="0.007">
+  <properties/>
+  <testcase name="testSimpleStructDef" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.002"/>
+  <testcase name="testFunctionPrototype" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.002"/>
+  <testcase name="testStructureInitSimple" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.0"/>
+  <testcase name="testStructureInitArray" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.003"/>
+  <testcase name="testAnonymousStructDef" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.0"/>
+  <testcase name="testClassContentExtraction" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.0">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest.testClassContentExtraction(ClassDeclarationTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:105)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:56)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[(simple_decl (var_decl (class_def struct (class_name (identifier foo)) { int x ; }) ;))
+(simple_decl (var_decl (type_name (base_type int)) (init_declarator_list (init_declarator (declarator (identifier foo) (type_suffix (param_type_list ( (param_type (param_decl_specifiers (type_name (base_type int x))) param_type_id) ))))) ;)))
+(simple_decl (var_decl (class_def struct (class_name (identifier foo)) { int x ; }) (init_declarator_list (init_declarator (declarator (identifier y))) ;)))
+(simple_decl (var_decl (class_def struct (class_name (identifier archive_contents)) { const char * f ; struct contents * c ; }) (init_declarator_list (init_declarator (declarator (identifier files) (type_suffix [ constant_expr_w_ ])) = (assign_expr_w_ { (assign_expr_w__l2 { (assign_expr_w__l2 (assign_water_l2 "sparse") (assign_water_l2 ,) (assign_water_l2 archive_contents_sparse)) } (assign_water_l2 ,) { (assign_expr_w__l2 (assign_water_l2 "sparse2") (assign_water_l2 ,) (assign_water_l2 archive_contents_sparse2)) }) })) ;)))
+]]></system-out>
+  <system-err><![CDATA[line 1:18 extraneous input ';' expecting {<EOF>, '&', '*', '(', 'public', 'private', 'protected', ALPHA_NUMERIC}
+]]></system-err>
+</testsuite>

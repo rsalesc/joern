@@ -1,4 +1,4 @@
-// Generated from src/main/java/antlr/Module.g4 by ANTLR 4.5.4-SNAPSHOT
+// Generated from src/main/java/antlr/Module.g4 by ANTLR 4.5.3
 
 	package antlr;
 
@@ -30,6 +30,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitMemberAccess(@NotNull ModuleParser.MemberAccessContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -42,6 +43,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIncDecOp(@NotNull ModuleParser.IncDecOpContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -54,6 +56,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPrimaryOnly(@NotNull ModuleParser.PrimaryOnlyContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -66,6 +69,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFuncCall(@NotNull ModuleParser.FuncCallContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -78,6 +82,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitArrayIndexing(@NotNull ModuleParser.ArrayIndexingContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -90,6 +95,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtrMemberAccess(@NotNull ModuleParser.PtrMemberAccessContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -102,6 +108,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclByClass(@NotNull ModuleParser.DeclByClassContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -114,6 +121,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclByType(@NotNull ModuleParser.DeclByTypeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -126,6 +134,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNormOr(@NotNull ModuleParser.NormOrContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -138,6 +147,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCndExpr(@NotNull ModuleParser.CndExprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -150,6 +160,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCode(@NotNull ModuleParser.CodeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -162,6 +173,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUsing_directive(@NotNull ModuleParser.Using_directiveContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -174,6 +186,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExpr(@NotNull ModuleParser.ExprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -186,6 +199,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_expr(@NotNull ModuleParser.Assign_exprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -198,6 +212,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConditional_expression(@NotNull ModuleParser.Conditional_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -210,6 +225,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOr_expression(@NotNull ModuleParser.Or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -222,6 +238,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAnd_expression(@NotNull ModuleParser.And_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -234,6 +251,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInclusive_or_expression(@NotNull ModuleParser.Inclusive_or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -246,6 +264,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExclusive_or_expression(@NotNull ModuleParser.Exclusive_or_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -258,6 +277,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBit_and_expression(@NotNull ModuleParser.Bit_and_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -270,6 +290,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitEquality_expression(@NotNull ModuleParser.Equality_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -282,6 +303,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRelational_expression(@NotNull ModuleParser.Relational_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -294,6 +316,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitShift_expression(@NotNull ModuleParser.Shift_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -306,6 +329,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAdditive_expression(@NotNull ModuleParser.Additive_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -318,6 +342,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitMultiplicative_expression(@NotNull ModuleParser.Multiplicative_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -330,6 +355,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCast_expression(@NotNull ModuleParser.Cast_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -342,6 +368,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCast_target(@NotNull ModuleParser.Cast_targetContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -354,6 +381,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_expression(@NotNull ModuleParser.Unary_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -366,6 +394,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNew_expression(@NotNull ModuleParser.New_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -378,6 +407,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_op_and_cast_expr(@NotNull ModuleParser.Unary_op_and_cast_exprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -390,6 +420,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_expression(@NotNull ModuleParser.Sizeof_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -402,6 +433,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof(@NotNull ModuleParser.SizeofContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -414,6 +446,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_operand(@NotNull ModuleParser.Sizeof_operandContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -426,6 +459,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSizeof_operand2(@NotNull ModuleParser.Sizeof_operand2Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -438,6 +472,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInc_dec(@NotNull ModuleParser.Inc_decContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -450,6 +485,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPostfix_expression(@NotNull ModuleParser.Postfix_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -462,6 +498,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_argument_list(@NotNull ModuleParser.Function_argument_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -474,6 +511,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_argument(@NotNull ModuleParser.Function_argumentContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -486,6 +524,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPrimary_expression(@NotNull ModuleParser.Primary_expressionContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -498,6 +537,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitUnary_operator(@NotNull ModuleParser.Unary_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -510,6 +550,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRelational_operator(@NotNull ModuleParser.Relational_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -522,6 +563,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConstant(@NotNull ModuleParser.ConstantContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -534,6 +576,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_decl_specifiers(@NotNull ModuleParser.Function_decl_specifiersContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -546,6 +589,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtr_operator(@NotNull ModuleParser.Ptr_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -558,6 +602,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAccess_specifier(@NotNull ModuleParser.Access_specifierContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -570,6 +615,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOperator(@NotNull ModuleParser.OperatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -582,6 +628,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssignment_operator(@NotNull ModuleParser.Assignment_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -594,6 +641,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitEquality_operator(@NotNull ModuleParser.Equality_operatorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -606,6 +654,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTemplate_decl_start(@NotNull ModuleParser.Template_decl_startContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -618,6 +667,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTemplate_param_list(@NotNull ModuleParser.Template_param_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -630,6 +680,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets(@NotNull ModuleParser.No_bracketsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -642,6 +693,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets_curlies_or_squares(@NotNull ModuleParser.No_brackets_curlies_or_squaresContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -654,6 +706,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_brackets_or_semicolon(@NotNull ModuleParser.No_brackets_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -666,6 +719,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_angle_brackets_or_brackets(@NotNull ModuleParser.No_angle_brackets_or_bracketsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -678,6 +732,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_curlies(@NotNull ModuleParser.No_curliesContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -690,6 +745,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_squares(@NotNull ModuleParser.No_squaresContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -702,6 +758,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_squares_or_semicolon(@NotNull ModuleParser.No_squares_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -714,6 +771,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNo_comma_or_semicolon(@NotNull ModuleParser.No_comma_or_semicolonContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -726,6 +784,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_water(@NotNull ModuleParser.Assign_waterContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -738,6 +797,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_water_l2(@NotNull ModuleParser.Assign_water_l2Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -750,6 +810,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitWater(@NotNull ModuleParser.WaterContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -762,6 +823,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_def(@NotNull ModuleParser.Function_defContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -774,6 +836,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitReturn_type(@NotNull ModuleParser.Return_typeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -786,6 +849,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_param_list(@NotNull ModuleParser.Function_param_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -798,6 +862,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParameter_decl_clause(@NotNull ModuleParser.Parameter_decl_clauseContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -810,6 +875,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParameter_decl(@NotNull ModuleParser.Parameter_declContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -822,6 +888,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParameter_id(@NotNull ModuleParser.Parameter_idContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -834,6 +901,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCompound_statement(@NotNull ModuleParser.Compound_statementContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -846,6 +914,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCtor_list(@NotNull ModuleParser.Ctor_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -858,6 +927,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCtor_initializer(@NotNull ModuleParser.Ctor_initializerContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -870,6 +940,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitializer_id(@NotNull ModuleParser.Initializer_idContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -882,6 +953,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCtor_expr(@NotNull ModuleParser.Ctor_exprContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -894,6 +966,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFunction_name(@NotNull ModuleParser.Function_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -906,6 +979,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitException_specification(@NotNull ModuleParser.Exception_specificationContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -918,6 +992,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType_id_list(@NotNull ModuleParser.Type_id_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -930,6 +1005,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInit_declarator(@NotNull ModuleParser.Init_declaratorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -942,6 +1018,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclarator(@NotNull ModuleParser.DeclaratorContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -954,6 +1031,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType_suffix(@NotNull ModuleParser.Type_suffixContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -966,6 +1044,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_expr_w_(@NotNull ModuleParser.Assign_expr_w_Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -978,6 +1057,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAssign_expr_w__l2(@NotNull ModuleParser.Assign_expr_w__l2Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -990,6 +1070,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConstant_expr_w_(@NotNull ModuleParser.Constant_expr_w_Context ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1002,6 +1083,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSimple_decl(@NotNull ModuleParser.Simple_declContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1014,6 +1096,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitVar_decl(@NotNull ModuleParser.Var_declContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1026,6 +1109,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInit_declarator_list(@NotNull ModuleParser.Init_declarator_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1038,6 +1122,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitializer(@NotNull ModuleParser.InitializerContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1050,6 +1135,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitInitializer_list(@NotNull ModuleParser.Initializer_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1062,6 +1148,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitClass_def(@NotNull ModuleParser.Class_defContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1074,6 +1161,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitClass_name(@NotNull ModuleParser.Class_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1086,6 +1174,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_classes(@NotNull ModuleParser.Base_classesContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1098,6 +1187,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_class(@NotNull ModuleParser.Base_classContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1110,6 +1200,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType_name(@NotNull ModuleParser.Type_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1122,6 +1213,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBase_type(@NotNull ModuleParser.Base_typeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1134,6 +1226,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_decl_specifiers(@NotNull ModuleParser.Param_decl_specifiersContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1146,6 +1239,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParameter_name(@NotNull ModuleParser.Parameter_nameContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1158,6 +1252,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type_list(@NotNull ModuleParser.Param_type_listContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1170,6 +1265,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type(@NotNull ModuleParser.Param_typeContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1182,6 +1278,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParam_type_id(@NotNull ModuleParser.Param_type_idContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1194,6 +1291,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIdentifier(@NotNull ModuleParser.IdentifierContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1206,6 +1304,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNumber(@NotNull ModuleParser.NumberContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1218,6 +1317,7 @@ public class ModuleBaseListener implements ModuleListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPtrs(@NotNull ModuleParser.PtrsContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
